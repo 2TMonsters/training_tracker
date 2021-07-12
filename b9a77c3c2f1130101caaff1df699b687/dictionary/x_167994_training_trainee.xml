@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trainee" max_length="40" name="x_167994_training_trainee" type="collection">
+        <element label="Assignment" max_length="32" name="assignment" reference="x_167994_training_path" type="reference"/>
+        <index name="index">
+            <element name="assignment"/>
+        </index>
+    </element>
+</database>
