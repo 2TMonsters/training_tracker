@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_167994_training.my_assignment_user" name="x_167994_training.my_assignment_user">d71a8135079130103676f85c7c1ed040</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 18:43:35</sys_created_on>
+        <sys_id>df1a8135079130103676f85c7c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d71a8135079130103676f85c7c1ed040</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_embedded_help_role_df1a8135079130103676f85c7c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 18:43:35</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

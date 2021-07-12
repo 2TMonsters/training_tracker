@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Trainee" max_length="40" name="x_167994_training_trainee" type="collection">
-        <element label="Assignment" max_length="32" name="assignment" reference="x_167994_training_path" type="reference"/>
+        <element label="My Assignment" max_length="32" name="my_assignment" reference="x_167994_training_my_assignment" type="reference"/>
+        <element label="My Program" max_length="20" name="my_program" type="string"/>
+        <element label="My Path" max_length="32" name="path" reference="x_167994_training_path" type="reference"/>
         <index name="index">
-            <element name="assignment"/>
+            <element name="path"/>
+        </index>
+        <index name="index2">
+            <element name="my_assignment"/>
         </index>
     </element>
 </database>

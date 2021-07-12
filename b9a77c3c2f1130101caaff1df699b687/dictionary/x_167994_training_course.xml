@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Course" max_length="40" name="x_167994_training_course" type="collection">
+        <element label="Title" max_length="20" name="name" type="string"/>
+        <element label="Order" max_length="3" name="order" type="integer"/>
+        <element label="Path" max_length="32" name="path" reference="x_167994_training_path" type="reference"/>
+        <element label="Prerequisite" max_length="32" name="prerequisite" reference="x_167994_training_course" type="reference"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <index name="index">
+            <element name="path"/>
+        </index>
+        <index name="index2">
+            <element name="prerequisite"/>
+        </index>
+    </element>
+</database>
