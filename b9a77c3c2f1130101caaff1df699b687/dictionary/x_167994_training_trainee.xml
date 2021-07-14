@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trainee" max_length="40" name="x_167994_training_trainee" type="collection">
-        <element label="My Assignment" max_length="32" name="my_assignment" reference="x_167994_training_my_assignment" type="reference"/>
-        <element label="My Program" max_length="20" name="my_program" type="string"/>
-        <element label="My Path" max_length="32" name="path" reference="x_167994_training_path" type="reference"/>
+    <element label="Trainee" max_length="40" name="x_167994_training_trainee" sizeclass="1" type="collection">
+        <element choice="1" label="Career Level" max_length="40" name="career_level" type="integer">
+            <choice/>
+        </element>
+        <element choice="3" default="intern" label="Employment Type" max_length="40" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Intern" sequence="0" value="intern"/>
+                <element inactive_on_update="false" label="Option" sequence="1" value="option"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Path" max_length="40" name="path" type="string"/>
+        <element label="Program End Date" max_length="40" name="program_end_date" type="glide_date"/>
+        <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
+        <element choice="3" default="servicenow" label="Training Platform" mandatory="true" max_length="40" name="training_platform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Servicenow" sequence="0" value="servicenow"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="1" value="salesforce"/>
+            </choice>
+        </element>
+        <element label="Experience" max_length="32" name="years_of_experience" reference_qual="x_167994_training_years_of_experience=^EQ" reference_qual_condition="x_167994_training_years_of_experience=^EQ" type="integer"/>
         <index name="index">
-            <element name="path"/>
+            <element name="name"/>
         </index>
         <index name="index2">
-            <element name="my_assignment"/>
+            <element name="years_of_experience"/>
         </index>
     </element>
 </database>

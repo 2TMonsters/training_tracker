@@ -36,5 +36,6 @@
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>
+        <x_167994_training_firstname/>
     </sys_db_object>
 </record_update>

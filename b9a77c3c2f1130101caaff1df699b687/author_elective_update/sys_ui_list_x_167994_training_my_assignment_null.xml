@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_167994_training_my_assignment" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actual_duration</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>2ec805ca071130103676f85c7c1ed032</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_status</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>aec805ca071130103676f85c7c1ed032</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>course_name</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>22c805ca071130103676f85c7c1ed033</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>a2c805ca071130103676f85c7c1ed033</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>estimated_time</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>26c805ca071130103676f85c7c1ed033</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>a6c805ca071130103676f85c7c1ed033</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>program</element>
+            <list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_id>2ac805ca071130103676f85c7c1ed033</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_167994_training_my_assignment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6c84d06071130103676f85c7c1ed04b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_167994_training_my_assignment</sys_name>
+            <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+            <sys_update_name>sys_ui_list_x_167994_training_my_assignment_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>3ea1d3cadb3810907527d7c8f4961931</instance_id>
+        <instance_name>dev103912</instance_name>
+        <name>sys_ui_list_x_167994_training_my_assignment_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_167994_training_my_assignment" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>actual_duration</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>2ec805ca071130103676f85c7c1ed032</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assignment_status</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>aec805ca071130103676f85c7c1ed032</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>course_name</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>22c805ca071130103676f85c7c1ed033</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>due_date</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>a2c805ca071130103676f85c7c1ed033</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>estimated_time</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>26c805ca071130103676f85c7c1ed033</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>order</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>a6c805ca071130103676f85c7c1ed033</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>program</element><list_id display_value="x_167994_training_my_assignment" element="NULL" name="x_167994_training_my_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e6c84d06071130103676f85c7c1ed04b</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_id>2ac805ca071130103676f85c7c1ed033</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_167994_training_my_assignment</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 13:16:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6c84d06071130103676f85c7c1ed04b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_167994_training_my_assignment</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_ui_list_x_167994_training_my_assignment_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 13:16:16</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1353358553</payload_hash>
+        <record_name>My Assignment</record_name>
+        <reverted_from/>
+        <source>fdd041f0075130103676f85c7c1ed0ce</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 13:16:16</sys_created_on>
+        <sys_id>e6c805ca071130103676f85c7c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa002cfd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 13:16:16</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>a6c805ca341130105140a2010c0ac135</update_guid>
+        <update_guid_history>a6c805ca341130105140a2010c0ac135:1353358553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 14:08:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>04fe42944e0e458682e60b2f37e2c024</sys_id>
+        <sys_metadata>e6c84d06071130103676f85c7c1ed04b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_my_assignment</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent display_value="">fb490df1079130103676f85c7c1ed072</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_167994_training_my_assignment_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_167994_training_my_assignment_null">e6c805ca071130103676f85c7c1ed035</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 14:08:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 14:38:00</sys_created_on>
+        <sys_id>fb7b550a075130103676f85c7c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_trainee.x_167994_training.trainee_user</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_security_acl display_value="x_167994_training_trainee">af7b550a075130103676f85c7c1ed03e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fb7b550a075130103676f85c7c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 14:38:00</sys_updated_on>
+        <sys_user_role display_value="x_167994_training.trainee_user" name="x_167994_training.trainee_user">b1b9e0b9071130103676f85c7c1ed040</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

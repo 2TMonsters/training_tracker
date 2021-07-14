@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_167994_training_years_of_experience" label="Years of Experience" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_167994_training_years_of_experience</element>
+            <help/>
+            <hint/>
+            <label>Years of Experience</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Years of Experiences</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-14 02:48:41</sys_created_on>
+            <sys_id>4bb2049a071930103676f85c7c1ed0b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Years of Experience</sys_name>
+            <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_x_167994_training_years_of_experience_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-14 02:48:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
