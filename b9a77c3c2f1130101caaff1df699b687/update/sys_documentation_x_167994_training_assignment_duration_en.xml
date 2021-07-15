@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="assign_to" label="Assigned to" language="en" table="x_167994_training_assignment">
+    <sys_documentation element="duration" label="Duration" language="en" table="x_167994_training_assignment">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>assign_to</element>
+            <element>duration</element>
             <help/>
             <hint/>
-            <label>Assigned to</label>
+            <label>Duration</label>
             <language>en</language>
             <name>x_167994_training_assignment</name>
-            <plural>Assigned to</plural>
+            <plural>Durations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 14:50:48</sys_created_on>
-            <sys_id>6213729e2f11301021a750492799b669</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Assigned to</sys_name>
+            <sys_created_on>2021-07-15 14:32:41</sys_created_on>
+            <sys_id>9d7deb6a2f11301021a750492799b66c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Duration</sys_name>
             <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
-            <sys_update_name>sys_documentation_x_167994_training_assignment_assign_to_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_167994_training_assignment_duration_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-15 17:47:33</sys_updated_on>
+            <sys_updated_on>2021-07-15 14:32:41</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
