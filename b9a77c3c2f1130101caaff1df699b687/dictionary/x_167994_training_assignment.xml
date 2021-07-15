@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_167994_training_course" label="Assignment" max_length="40" name="x_167994_training_assignment" type="collection">
+    <element extends="x_167994_training_course" label="Assignment" max_length="40" name="x_167994_training_assignment" sizeclass="0" type="collection">
         <element label="Assign to" max_length="32" name="assign_to" reference="x_167994_training_trainee" type="reference"/>
         <index name="index">
             <element name="assign_to"/>
