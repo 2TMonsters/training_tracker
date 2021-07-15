@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>90fd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>e8df6cfa07d130103676f85c7c1ed05a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,97 +18,111 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>14fd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>6cdf6cfa07d130103676f85c7c1ed05a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employment_type</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>94fd3e962f51301021a750492799b6f5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>program_end_date</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>18fd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>ecdf6cfa07d130103676f85c7c1ed05a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>years_of_experience</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>98fd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>60df6cfa07d130103676f85c7c1ed05b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>1cfd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>e0df6cfa07d130103676f85c7c1ed05b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>training_platform</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>9cfd3e962f51301021a750492799b6f5</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>64df6cfa07d130103676f85c7c1ed05b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>progress</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-14 16:26:36</sys_created_on>
-            <sys_id>10fd3e962f51301021a750492799b6f6</sys_id>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>e4df6cfa07d130103676f85c7c1ed05b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-14 16:26:36</sys_updated_on>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>training_platform.platform</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>68df6cfa07d130103676f85c7c1ed05b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employment_type.employment_type</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-15 19:22:38</sys_created_on>
+            <sys_id>e8df6cfa07d130103676f85c7c1ed05b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_trainee" sys_domain="global" view="Default view">9f94614e075130103676f85c7c1ed05f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-15 19:22:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
