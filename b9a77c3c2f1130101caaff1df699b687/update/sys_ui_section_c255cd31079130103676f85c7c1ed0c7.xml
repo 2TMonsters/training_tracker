@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>8255cd31079130103676f85c7c1ed0cd</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>fb89c5c407e130103676f85c7c1ed038</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>8a55cd31079130103676f85c7c1ed0cd</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>7f89c5c407e130103676f85c7c1ed038</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>0e55cd31079130103676f85c7c1ed0cd</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>ff89c5c407e130103676f85c7c1ed038</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>8e55cd31079130103676f85c7c1ed0cd</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>7389c5c407e130103676f85c7c1ed039</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>active</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>0255cd31079130103676f85c7c1ed0ce</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>f389c5c407e130103676f85c7c1ed039</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>8255cd31079130103676f85c7c1ed0ce</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>7789c5c407e130103676f85c7c1ed039</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -88,55 +88,55 @@
             <element>description</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-12 18:22:44</sys_created_on>
-            <sys_id>0655cd31079130103676f85c7c1ed0ce</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>f789c5c407e130103676f85c7c1ed039</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-12 18:22:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-15 14:31:27</sys_created_on>
-            <sys_id>472da76a2f11301021a750492799b6e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-15 14:31:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employment_type</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-15 19:10:58</sys_created_on>
-            <sys_id>b12d207a07d130103676f85c7c1ed05b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-15 19:10:58</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>platform</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-15 19:16:34</sys_created_on>
-            <sys_id>7f6eac7a07d130103676f85c7c1ed033</sys_id>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>7b89c5c407e130103676f85c7c1ed039</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-15 19:16:34</sys_updated_on>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_167994_training_path.x_167994_training_trainee.training_platform</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-19 18:27:29</sys_created_on>
+            <sys_id>fb89c5c407e130103676f85c7c1ed039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-19 18:27:29</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employment</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-19 18:30:28</sys_created_on>
+            <sys_id>e33ac10807e130103676f85c7c1ed04a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_path" sys_domain="global" view="Default view">c255cd31079130103676f85c7c1ed0c7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-19 18:30:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
