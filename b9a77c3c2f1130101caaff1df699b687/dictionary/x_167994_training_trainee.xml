@@ -5,7 +5,6 @@
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Program End Date" max_length="40" name="program_end_date" type="glide_date"/>
         <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="3" label="Path" mandatory="true" max_length="40" name="training_platform" reference="x_167994_training_path" type="reference">
             <choice>

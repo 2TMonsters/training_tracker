@@ -10,7 +10,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Platform" max_length="40" name="platform" type="choice">
+        <element choice="3" label="Platform" max_length="40" name="platform" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Salesforce" value="salesforce"/>
                 <element inactive_on_update="false" label="ServiceNow" value="servicenow"/>

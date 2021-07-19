@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="program_end_date" label="Program End Date" language="en" table="x_167994_training_trainee">
+    <sys_documentation element="x_167994_training_program_end" label="Program End" language="en" table="sys_user">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>program_end_date</element>
+            <element>x_167994_training_program_end</element>
             <help/>
             <hint/>
-            <label>Program End Date</label>
+            <label>Program End</label>
             <language>en</language>
-            <name>x_167994_training_trainee</name>
-            <plural>Program End Dates</plural>
+            <name>sys_user</name>
+            <plural>Program Ends</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-13 15:17:07</sys_created_on>
-            <sys_id>b874ed8e075130103676f85c7c1ed08b</sys_id>
+            <sys_created_on>2021-07-19 14:11:40</sys_created_on>
+            <sys_id>e80fc00c072130103676f85c7c1ed01d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Program End Date</sys_name>
+            <sys_name>Program End</sys_name>
             <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
-            <sys_update_name>sys_documentation_x_167994_training_trainee_program_end_date_en</sys_update_name>
+            <sys_update_name>sys_documentation_sys_user_x_167994_training_program_end_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-13 15:17:07</sys_updated_on>
+            <sys_updated_on>2021-07-19 14:11:40</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
