@@ -32,36 +32,38 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_167994_training_trainee</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_167994_training_path">x_167994_training_path</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>active=true^EQ</reference_qual>
+        <reference_qual_condition table="x_167994_training_path">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-13 15:17:06</sys_created_on>
+        <sys_created_on>2021-07-20 15:59:27</sys_created_on>
         <sys_id>7b83658e075130103676f85c7c1ed073</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Path</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sys_dictionary_x_167994_training_trainee_path</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-13 15:17:06</sys_updated_on>
+        <sys_updated_on>2021-07-20 16:01:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -73,124 +75,54 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
-<sys_update_version action="INSERT_OR_UPDATE">
+    <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
         <file_path/>
-        <instance_id>83c7b3fcdb773b049df22f17d4961987</instance_id>
-        <instance_name>dev93350</instance_name>
+        <instance_id>3ea1d3cadb3810907527d7c8f4961931</instance_id>
+        <instance_name>dev103912</instance_name>
         <name>sys_dictionary_x_167994_training_trainee_path</name>
-        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
-    &lt;sys_dictionary action="INSERT_OR_UPDATE" element="path" table="x_167994_training_trainee"&gt;
-        &lt;active&gt;true&lt;/active&gt;
-        &lt;array&gt;false&lt;/array&gt;
-        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
-        &lt;attributes/&gt;
-        &lt;audit&gt;false&lt;/audit&gt;
-        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="path" table="x_167994_training_trainee"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
-})(current);]]&gt;&lt;/calculation&gt;
-        &lt;choice/&gt;
-        &lt;choice_field/&gt;
-        &lt;choice_table/&gt;
-        &lt;column_label&gt;Path&lt;/column_label&gt;
-        &lt;comments/&gt;
-        &lt;create_roles/&gt;
-        &lt;default_value/&gt;
-        &lt;defaultsort/&gt;
-        &lt;delete_roles/&gt;
-        &lt;dependent/&gt;
-        &lt;dependent_on_field/&gt;
-        &lt;display&gt;false&lt;/display&gt;
-        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
-        &lt;dynamic_creation_script/&gt;
-        &lt;dynamic_default_value/&gt;
-        &lt;dynamic_ref_qual/&gt;
-        &lt;element&gt;path&lt;/element&gt;
-        &lt;element_reference&gt;false&lt;/element_reference&gt;
-        &lt;foreign_database/&gt;
-        &lt;function_definition/&gt;
-        &lt;function_field&gt;false&lt;/function_field&gt;
-        &lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;
-        &lt;mandatory&gt;false&lt;/mandatory&gt;
-        &lt;max_length&gt;40&lt;/max_length&gt;
-        &lt;name&gt;x_167994_training_trainee&lt;/name&gt;
-        &lt;next_element/&gt;
-        &lt;primary&gt;false&lt;/primary&gt;
-        &lt;read_only&gt;false&lt;/read_only&gt;
-        &lt;read_roles/&gt;
-        &lt;reference/&gt;
-        &lt;reference_cascade_rule/&gt;
-        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
-        &lt;reference_key/&gt;
-        &lt;reference_qual/&gt;
-        &lt;reference_qual_condition/&gt;
-        &lt;reference_type/&gt;
-        &lt;sizeclass/&gt;
-        &lt;spell_check&gt;false&lt;/spell_check&gt;
-        &lt;staged&gt;false&lt;/staged&gt;
-        &lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;
-        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
-        &lt;sys_created_on&gt;2021-07-13 15:17:06&lt;/sys_created_on&gt;
-        &lt;sys_id&gt;7b83658e075130103676f85c7c1ed073&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
-        &lt;sys_name&gt;Path&lt;/sys_name&gt;
-        &lt;sys_package display_value="Training Tracker" source="x_167994_training"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_package&gt;
-        &lt;sys_policy/&gt;
-        &lt;sys_scope display_value="Training Tracker"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_scope&gt;
-        &lt;sys_update_name&gt;sys_dictionary_x_167994_training_trainee_path&lt;/sys_update_name&gt;
-        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2021-07-13 15:17:06&lt;/sys_updated_on&gt;
-        &lt;table_reference&gt;false&lt;/table_reference&gt;
-        &lt;text_index&gt;false&lt;/text_index&gt;
-        &lt;unique&gt;false&lt;/unique&gt;
-        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
-        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
-        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
-        &lt;virtual&gt;false&lt;/virtual&gt;
-        &lt;widget/&gt;
-        &lt;write_roles/&gt;
-        &lt;xml_view&gt;false&lt;/xml_view&gt;
-    &lt;/sys_dictionary&gt;
-&lt;/record_update&gt;</payload>
-        <payload_hash>8575944</payload_hash>
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Path&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;path&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_167994_training_trainee&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_167994_training_path"&gt;x_167994_training_path&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;active=true^EQ&lt;/reference_qual&gt;&lt;reference_qual_condition table="x_167994_training_path"&gt;active=true^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-20 15:59:27&lt;/sys_created_on&gt;&lt;sys_id&gt;7b83658e075130103676f85c7c1ed073&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Path&lt;/sys_name&gt;&lt;sys_package display_value="Training Tracker" source="x_167994_training"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Tracker"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_167994_training_trainee_path&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-20 16:01:46&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2143944825</payload_hash>
         <record_name>Trainee.Path</record_name>
         <reverted_from/>
-        <source>7313b29e2f11301021a750492799b6b3</source>
-        <source_table>sys_upgrade_history</source_table>
+        <source>c0ff8e1407a130103676f85c7c1ed0f2</source>
+        <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-14 15:39:30</sys_created_on>
-        <sys_id>5a23769e2f11301021a750492799b633</sys_id>
+        <sys_created_on>2021-07-20 18:13:31</sys_created_on>
+        <sys_id>c5ffce1407a130103676f85c7c1ed080</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>17aa5ac4c380000001</sys_recorded_at>
+        <sys_recorded_at>17ac51f750b0000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:39:30</sys_updated_on>
+        <sys_updated_on>2021-07-20 18:13:31</sys_updated_on>
         <type>Dictionary</type>
-        <update_guid>d623769ef01130105475b9d81e64c633</update_guid>
-        <update_guid_history>d623769ef01130105475b9d81e64c633:0,1a23769e381130106e2af510a991312d:-835527310</update_guid_history>
+        <update_guid>53c1795c7b2130101e0393ff4c5ea06d</update_guid>
+        <update_guid_history>53c1795c7b2130101e0393ff4c5ea06d:-2143944825,63cfca142ca13010812a239df2def181:0,53c1795c7b2130101e0393ff4c5ea06d:-2143944825,9d41715cbf21301006a14e122f7807b3:2016896927,27e2210c4a253010416a74d37d1d47c0:0,9001e1883825301016494ab8a99278c2:1056792915,6d65958012253010d35d80b30612d43c:2016896927,3380b06e3a953010a52f7a0bb46dfe10:182084058,23bd28aa8c953010b025ae7aee2f7679:0,6f8b682a4d95301085766787cb1b79a9:182084058,e874ed8e87513010b9cda31ffa480f72:5933350,68055dc21f5130108b42520c718e6d1d:763426113,096091b993913010955d79b4a401f308:754455181,6cbfc579e5913010ad1680edf3bd4cbe:2016896927</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-14 16:27:50</sys_created_on>
+        <sys_created_on>2021-07-20 18:13:34</sys_created_on>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
-        <sys_id>05b1bc3685cd4cbaa9795c035e6b3811</sys_id>
-        <sys_metadata>0e13329e2f11301021a750492799b6e0</sys_metadata>
+        <sys_id>8f363f5dc75a45958a305c05878b88d9</sys_id>
+        <sys_metadata>7b83658e075130103676f85c7c1ed073</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Path</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
-        <sys_parent display_value="Trainee">fd13329e2f11301021a750492799b6c2</sys_parent>
+        <sys_parent display_value="Trainee">f2a170ae079530103676f85c7c1ed020</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_167994_training_trainee_path</sys_update_name>
-        <sys_update_version display_value="sys_dictionary_x_167994_training_trainee_path">5a23769e2f11301021a750492799b633</sys_update_version>
+        <sys_update_version display_value="sys_dictionary_x_167994_training_trainee_path">c5ffce1407a130103676f85c7c1ed080</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-14 16:27:50</sys_updated_on>
+        <sys_updated_on>2021-07-20 18:13:34</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

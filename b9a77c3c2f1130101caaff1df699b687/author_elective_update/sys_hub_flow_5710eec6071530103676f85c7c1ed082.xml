@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_trainee_record</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create Trainee record</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 19:37:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5710eec6071530103676f85c7c1ed082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Trainee record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_hub_flow_5710eec6071530103676f85c7c1ed082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 19:37:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=5710eec6071530103676f85c7c1ed082"/>
+    <sys_variable_value action="DELETE" query="document_key=5710eec6071530103676f85c7c1ed082"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5710eec6071530103676f85c7c1ed082^sys_idNOT INdb10eec6071530103676f85c7c1ed084"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5710eec6071530103676f85c7c1ed082</id>
+        <name>Create Trainee record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 19:37:48</sys_created_on>
+        <sys_id>db10eec6071530103676f85c7c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 19:37:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>3ea1d3cadb3810907527d7c8f4961931</instance_id>
+        <instance_name>dev103912</instance_name>
+        <name>sys_hub_flow_5710eec6071530103676f85c7c1ed082</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_trainee_record</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create Trainee record</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 19:37:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5710eec6071530103676f85c7c1ed082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Trainee record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_hub_flow_5710eec6071530103676f85c7c1ed082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 19:37:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5710eec6071530103676f85c7c1ed082"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5710eec6071530103676f85c7c1ed082"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5710eec6071530103676f85c7c1ed082^sys_idNOT INdb10eec6071530103676f85c7c1ed084"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5710eec6071530103676f85c7c1ed082</id>
+        <name>Create Trainee record</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 19:37:48</sys_created_on>
+        <sys_id>db10eec6071530103676f85c7c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 19:37:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>]]></payload>
+        <payload_hash>-1577773965</payload_hash>
+        <record_name>Create Trainee record</record_name>
+        <reverted_from/>
+        <source>7330158c07e130103676f85c7c1ed0e6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 18:56:52</sys_created_on>
+        <sys_id>d240d58c07e130103676f85c7c1ed054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac020cb960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 18:56:52</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>5240d58c81e13010dcc5c7f734bb1c54</update_guid>
+        <update_guid_history>5240d58c81e13010dcc5c7f734bb1c54:0,59ef854cbce13010b2d19d9d106c5ea1:0,8b9f890c8ce13010ecd8f20f1212a5f7:0,c2e670b299153010e3c4e7e3172b6f4e:0,28370c7e0d5130100f68c0934225389d:0,7a54c0fa5c513010aa470b437f10d3d3:1396680953,3375803e88513010e2cbec70f0737dc5:0,7a54c0fa5c513010aa470b437f10d3d3:1396680953,35b134ae5e953010507d0310049b628e:0,4080bc2ea1953010845d4e8ce661e67f:158147477,0ccd28aa7a95301063b561612d59a7d7:0,0e7b242a39953010de784ea90f022152:158147477,5b10eec69a153010873165df2e0e2388:1689196589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-20 18:16:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>1eae805b69214de088a6bd0df4d61e10</sys_id>
+        <sys_metadata>5710eec6071530103676f85c7c1ed082</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Trainee record</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5710eec6071530103676f85c7c1ed082</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5710eec6071530103676f85c7c1ed082">d240d58c07e130103676f85c7c1ed054</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-20 18:16:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

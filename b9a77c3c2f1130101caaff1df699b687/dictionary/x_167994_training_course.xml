@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Course" max_length="40" name="x_167994_training_course" sizeclass="0" type="collection">
+    <element label="Course" max_length="40" name="x_167994_training_course" sizeclass="5" type="collection">
         <element label="Content" max_length="8000" name="content" type="html"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Path" max_length="32" name="path" reference="x_167994_training_path" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
