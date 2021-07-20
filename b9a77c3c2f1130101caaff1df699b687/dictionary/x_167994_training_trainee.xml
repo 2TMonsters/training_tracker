@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Trainee" max_length="40" name="x_167994_training_trainee" sizeclass="7" type="collection">
         <element label="Assignment" max_length="32" name="assignment" reference="x_167994_training_assignment" type="reference"/>
-        <element choice="1" label="Career Level" max_length="40" name="career_level" type="integer">
-            <choice/>
-        </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
