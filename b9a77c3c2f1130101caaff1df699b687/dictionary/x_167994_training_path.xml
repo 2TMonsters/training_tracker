@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Path" max_length="40" name="x_167994_training_path" sizeclass="0" type="collection">
-        <element label="Active" max_length="40" name="active" type="boolean"/>
+    <element label="Path" max_length="40" name="x_167994_training_path" sizeclass="3" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
-        <element choice="1" choice_field="employment_type" choice_table="x_167994_training_trainee" label="Employment Type" max_length="40" name="employment_type" type="choice">
+        <element choice="3" label="Employment" max_length="40" name="employment" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Employee" value="employee"/>
                 <element inactive_on_update="false" label="Intern" value="intern"/>

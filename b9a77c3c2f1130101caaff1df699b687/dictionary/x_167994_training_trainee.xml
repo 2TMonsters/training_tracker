@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trainee" max_length="40" name="x_167994_training_trainee" sizeclass="0" type="collection">
-        <element choice="1" label="Career Level" max_length="40" name="career_level" type="integer">
-            <choice/>
-        </element>
+    <element label="Trainee" max_length="40" name="x_167994_training_trainee" sizeclass="7" type="collection">
+        <element label="Assignment" max_length="32" name="assignment" reference="x_167994_training_assignment" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Program End Date" max_length="40" name="program_end_date" type="glide_date"/>
         <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="3" label="Path" mandatory="true" max_length="40" name="training_platform" reference="x_167994_training_path" type="reference">
-            <choice>
-                <element inactive_on_update="false" label="Servicenow" sequence="0" value="servicenow"/>
-                <element inactive_on_update="false" label="Salesforce" sequence="1" value="salesforce"/>
-            </choice>
-        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
-            <element name="name"/>
+            <element name="assignment"/>
         </index>
         <index name="index2">
-            <element name="training_platform"/>
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>
