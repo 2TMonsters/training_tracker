@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>fb3a2dd4072130103676f85c7c1ed038</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>38f1e96c2ff9f010b14c5fd62799b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,83 +18,83 @@
             <element>title</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>b33a2dd4072130103676f85c7c1ed039</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>bcf1e96c2ff9f010b14c5fd62799b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>path</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>373a2dd4072130103676f85c7c1ed039</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>path.employment</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>b73a2dd4072130103676f85c7c1ed039</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>path.platform</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>3b3a2dd4072130103676f85c7c1ed039</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>bb3a2dd4072130103676f85c7c1ed039</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>34f1e96c2ff9f010b14c5fd62799b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>path</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>b8f1e96c2ff9f010b14c5fd62799b675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>path.employment</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>30f1e96c2ff9f010b14c5fd62799b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>path.platform</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>b4f1e96c2ff9f010b14c5fd62799b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>3f3a2dd4072130103676f85c7c1ed039</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>3cf1e96c2ff9f010b14c5fd62799b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.begin_split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>bf3a2dd4072130103676f85c7c1ed039</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>b0f1e96c2ff9f010b14c5fd62799b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>content</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>333a2dd4072130103676f85c7c1ed03a</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>38f1e96c2ff9f010b14c5fd62799b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>.split</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-07-20 15:28:46</sys_created_on>
-            <sys_id>b33a2dd4072130103676f85c7c1ed03a</sys_id>
+            <sys_created_on>2021-08-02 19:46:42</sys_created_on>
+            <sys_id>bcf1e96c2ff9f010b14c5fd62799b677</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_167994_training_course" sys_domain="global" view="Default view">d4e1075a2f51301021a750492799b672</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-07-20 15:28:46</sys_updated_on>
+            <sys_updated_on>2021-08-02 19:46:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

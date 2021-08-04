@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter table="x_167994_training_assignment">path_assignment.training_plan.userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^path_assignment.is_active_path=true<item endquery="false" field="path_assignment.training_plan.user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="path_assignment.is_active_path" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>path_assignment</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">55432dac2ff9f010b14c5fd62799b633</sp_column>
+        <sp_page display_value="training_assignment">053c3df02f393410b14c5fd62799b600</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 19:52:36</sys_created_on>
+        <sys_id>5343e9ac2ff9f010b14c5fd62799b67c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>My Assignments</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_instance_table_5343e9ac2ff9f010b14c5fd62799b67c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-03 19:43:49</sys_updated_on>
+        <table>x_167994_training_assignment</table>
+        <title>My Assignments</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=5343e9ac2ff9f010b14c5fd62799b67c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sp_instance_table_5343e9ac2ff9f010b14c5fd62799b67c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>primary</color><css/><display_field/><field_list/><filter table="x_167994_training_assignment">path_assignment.training_plan.userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^path_assignment.is_active_path=true<item endquery="false" field="path_assignment.training_plan.user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="path_assignment.is_active_path" goto="false" newquery="false" operator="=" or="false" value="true"/></filter><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by>path_assignment</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">55432dac2ff9f010b14c5fd62799b633</sp_column><sp_page display_value="training_assignment">053c3df02f393410b14c5fd62799b600</sp_page><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 19:52:36</sys_created_on><sys_id>5343e9ac2ff9f010b14c5fd62799b67c</sys_id><sys_mod_count>10</sys_mod_count><sys_name>My Assignments</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sp_instance_table_5343e9ac2ff9f010b14c5fd62799b67c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-03 19:43:49</sys_updated_on><table>x_167994_training_assignment</table><title>My Assignments</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=5343e9ac2ff9f010b14c5fd62799b67c"/></record_update>]]></payload>
+        <payload_hash>-1960636269</payload_hash>
+        <record_name>My Assignments</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-03 19:43:49</sys_created_on>
+        <sys_id>58eae2742fb93410b14c5fd62799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b0d8b29ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-03 19:43:49</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>50eae27409b93410246802950ede068b</update_guid>
+        <update_guid_history>50eae27409b93410246802950ede068b:-1960636269,38ecfd3426393410de4a6bfed78686e5:406587272,babb7df0dc3934101b7ca7839f061c6d:1325504506,e07ab5fca2f534106b495a0c0012b6ef:-1564634927,be1a3db0d3393410f22eed0180afc1fa:359236900,221a3db0dc3934108cd65fbd58550acb:-1856088283,9b5525208d3df0101b48ff0c064cb01e:1298789494,5f74e5ece3f9f010d0591d3551486a97:1129226851,2d2461ec07f9f010ea330967d5e841ed:1410664235,fe936dac2af9f010b36d86a65806b701:-230058334,9f43e9ac5cf9f0103c41ff6611298a7e:1564731135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Assignments">3bec3e702ff93410b14c5fd62799b639</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-03 21:02:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>063ad4f5f33b40f186e234d5d921a4d1</sys_id>
+        <sys_metadata>5343e9ac2ff9f010b14c5fd62799b67c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Assignments</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sp_instance_table_5343e9ac2ff9f010b14c5fd62799b67c</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_5343e9ac2ff9f010b14c5fd62799b67c">58eae2742fb93410b14c5fd62799b68b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-03 21:02:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

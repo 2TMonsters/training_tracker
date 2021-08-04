@@ -65,7 +65,7 @@
         <update_guid_history>e7844531bd913010c4721764e1705dc6:1891098479,71538dbd49513010b5f6344399638465:-1539481809</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Assignments">32b54571079130103676f85c7c1ed03d</sys_audit_delete>
+        <sys_audit_delete display_value="">32b54571079130103676f85c7c1ed03d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-12 18:24:26</sys_created_on>
