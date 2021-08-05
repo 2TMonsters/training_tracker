@@ -17,7 +17,6 @@
 	 * fields (string) = comma separated list of fields that become the list columns
 	 * view (string) = the default view to load for columns, overrides fields
 	*/
-	
 	$scope.accessibilityModeEnabled = spAriaUtil.isAccessibilityEnabled();
 	$scope.exportTypes = [{label:'PDF', value: 'PDF'}, {label:'Excel', value:'EXCEL'}, {label:'CSV', value:'CSV'}];
 	var keys = ['table', 'filter', 'p', 'o', 'd'];
@@ -416,7 +415,7 @@
 	});
 	
 	c.goToAssignment = function(item){
-		console.log($scope.data.fields);
+		console.log($scope.data);
 		//$window.location.href = "https://dev78456.service-now.com/training/?id=training_assignment&table=x_167994_training_assignment&sys_id="+item.sys_id+"&sysparm_article="+item.article;
 	}
 	
@@ -519,6 +518,16 @@ tbody tr:last-child {
 		outline: 5px auto $input-border-focus;
 		outline-offset: -2px; 
 	}
+}
+
+.complete{
+  color: green;
+  background-color: green;
+  border-radius: 6px;
+}
+.incomplete{
+  background-color: red;
+  border-radius: 6px;
 }</css>
         <data_table>sp_instance_table</data_table>
         <demo_data>{"data":
@@ -717,7 +726,7 @@ tbody tr:last-child {
 	data.keywords = data.keywords || $sp.getValue('keywords');
 	data.p = data.p || $sp.getValue('p') || 1;
 	data.p = parseInt(data.p);
-	data.o = data.o || $sp.getValue('o') || $sp.getValue('order_by');
+	data.o = data.o || $sp.getValue('o') || "path_course.order";// || $sp.getValue('order_by');
 	data.d = data.d || $sp.getValue('d') || $sp.getValue('order_direction') || 'asc';
 
 	var grForMetaData = new GlideRecord(data.table);
@@ -794,7 +803,10 @@ tbody tr:last-child {
 			gr.orderByDesc(data.o);
 		if (gs.getProperty("glide.secondary.query.sysid") == "true")
 			gr.orderBy("sys_id");
+	}else{
+		gr.orderBy('path_course.order');
 	}
+	
 
 	data.window_start = data.page_index * data.window_size;
 	data.window_end = (data.page_index + 1) * data.window_size;
@@ -911,14 +923,14 @@ tbody tr:last-child {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 20:55:53</sys_created_on>
         <sys_id>b75bbefc2fb93410b14c5fd62799b646</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Training My Path Assignments</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_b75bbefc2fb93410b14c5fd62799b646</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 18:18:46</sys_updated_on>
+        <sys_updated_on>2021-08-05 19:32:22</sys_updated_on>
         <template><![CDATA[  <div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
     <div class="panel-heading form-inline" ng-hide="options.hide_header">
       <span class="dropdown m-r-xs">
@@ -967,11 +979,15 @@ tbody tr:last-child {
           </tr>
         </thead>
         <tbody>
+          
           <tr ng-repeat="item in data.list track by item.sys_id">
-            <td role="cell" class="pointer sp-list-cell" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">
+            <td role="cell" ng-if="field!='completed'" class="pointer sp-list-cell" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">
               <span ng-if="$first" aria-label="${Open record}: {{::item[field].display_value}}" role="link" tabindex="0">{{::item[field].display_value | limitTo : item[field].limit}}{{::item[field].display_value.length > item[field].limit ? '...' : ''}}</span>
               <span ng-if="!$first">{{::item[field].display_value | limitTo : item[field].limit}}{{::item[field].display_value.length > item[field].limit ? '...' : ''}}</span>
             </td>
+          
+            <td role="cell" ng-if="field=='completed'&&item[field].display_value=='true'" class="complete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td>
+          	<td role="cell" ng-if="field=='completed'&&item[field].display_value=='false'" class="incomplete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td>
           </tr>
         </tbody>
       </table>
