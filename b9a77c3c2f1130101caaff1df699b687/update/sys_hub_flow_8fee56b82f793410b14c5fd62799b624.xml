@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8fee56b82f793410b14c5fd62799b624</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Only one active path</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sys_hub_flow_8fee56b82f793410b14c5fd62799b624</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-04 14:35:28</sys_updated_on>
+        <sys_updated_on>2021-08-05 17:15:49</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8fee56b82f793410b14c5fd62799b624"/>
@@ -70,16 +70,16 @@
         <table>x_167994_training_path_assignment</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"table":"sys_trigger_runner_mapping","id":"f4edea4d2f313010b14c5fd62799b620","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>8fee56b82f793410b14c5fd62799b624</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-04 14:35:27</sys_created_on>
         <sys_id>f4edea4d2f313010b14c5fd62799b620</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-04 14:35:27</sys_updated_on>
+        <sys_updated_on>2021-08-05 17:15:50</sys_updated_on>
         <trigger display_value="">7cedea4d2f313010b14c5fd62799b61f</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">

@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller=function($scope, $rootScope, $window, spUtil) {
-  /* widget controller */
-  var c = this;
-	
+        <client_script><![CDATA[api.controller=function($scope, $rootScope, $window, spUtil, spModal) {
+	/* widget controller */
+	var c = this;
+
 	c.completeAssign = function(){
-		c.server.get({
-			action: 'completeAssign'
-		}).then(function(r){
-			console.log($scope.data);
-			spUtil.update($scope);
-		})
+		var shared = {};
+		shared.title = $scope.data.record.title;
+		spModal.open({
+			shared: shared,
+			title: 'Congrats on Completing '+$scope.data.record.title,
+			widget: 'training_input_duration', 
+			widgetInput: {}
+		}).then(function () {
+			//console.log("Shared: ",shared);
+			var req = {};
+			req.action = 'completeAssign';	
+			req.duration = ""+String(shared.hours).padStart(2, "0")+":"+String(shared.minutes).padStart(2, "0")+":00";
+			console.log("req.duration: ", req.duration);
+			c.server.get(req).then(function(r){
+				console.log($scope.data);
+				spUtil.update($scope);
+			});
+		});
+
 	}
-	
+
 	c.toNextAssign = function(){
 		console.log($scope.data);
-		$window.location.href="https://dev78456.service-now.com/training/?id=training_assignment&table="+$scope.data.table+"&sys_id="+$scope.data.nextAssign.sys_id;
+		$window.location.href="https://dev78456.service-now.com/training/?id=training_assignment&table="+$scope.data.table+"&sys_id="+$scope.data.nextAssign.sys_id+"&sysparm_article="+$scope.data.nextAssign.article;
 	}
-	
+
 	c.toHome = function(){
 		//console.log($scope.data);
 		$window.location.href="https://dev78456.service-now.com/training/"
@@ -86,6 +99,7 @@ td{
 		data.record = {};
 		data.record.order = current.path_course.order;
 		data.record.path_assignment = current.path_assignment;
+		data.record.title = String(current.path_course.course.title)
 		data.record.completed = Boolean(current.completed);
 	}else{
 		gs.addErrorMessage("Record not found.")
@@ -105,6 +119,7 @@ td{
 			nextOrderVal = nextRecord.path_course.order;
 			data.nextAssign.sys_id = String(nextRecord.sys_id);
 			data.nextAssign.title = String(nextRecord.path_course.course.title);
+			data.nextAssign.article = String(nextRecord.path_course.course.kb_article.number);
 			data.isLast = false;
 		}
 	}
@@ -113,24 +128,25 @@ td{
 	if(input){
 		if(input.action == 'completeAssign'){
 			current.completed = true;
+			current.duration = input.duration;
 			current.update();
 		}
 	}
-	
+
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-04 15:14:44</sys_created_on>
         <sys_id>e0e6f2052f713010b14c5fd62799b6a0</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>105</sys_mod_count>
         <sys_name>Training Assignment Buttons</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_e0e6f2052f713010b14c5fd62799b6a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-04 19:36:14</sys_updated_on>
+        <sys_updated_on>2021-08-05 18:00:51</sys_updated_on>
         <template><![CDATA[<div>
   <div class="completeMessage" ng-if="data.record.completed">
     Assignment Complete

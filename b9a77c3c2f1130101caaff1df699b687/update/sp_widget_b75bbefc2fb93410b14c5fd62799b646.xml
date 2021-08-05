@@ -17,6 +17,7 @@
 	 * fields (string) = comma separated list of fields that become the list columns
 	 * view (string) = the default view to load for columns, overrides fields
 	*/
+	
 	$scope.accessibilityModeEnabled = spAriaUtil.isAccessibilityEnabled();
 	$scope.exportTypes = [{label:'PDF', value: 'PDF'}, {label:'Excel', value:'EXCEL'}, {label:'CSV', value:'CSV'}];
 	var keys = ['table', 'filter', 'p', 'o', 'd'];
@@ -215,6 +216,7 @@
 		$scope.data.setOrderUserPreferences = true;
 		$scope.setSearch(true);
 	}
+  
 
 	$scope.setSearch = function(updateUrl) {
 		$scope.data.p = 1;
@@ -410,11 +412,14 @@
 	}
 	$rootScope.$on('NewActivePath', function(name) {
 		spUtil.update($scope);
+		
 	});
 	
 	c.goToAssignment = function(item){
-		$window.location.href = "https://dev78456.service-now.com/training/?id=training_assignment&table=x_167994_training_assignment&sys_id="+item.sys_id;
+		console.log($scope.data.fields);
+		//$window.location.href = "https://dev78456.service-now.com/training/?id=training_assignment&table=x_167994_training_assignment&sys_id="+item.sys_id+"&sysparm_article="+item.article;
 	}
+	
 	
 }]]></client_script>
         <controller_as>c</controller_as>
@@ -831,6 +836,7 @@ tbody tr:last-child {
 				}
 			}
 		}
+		record.article = String(gr.path_course.course.kb_article.number);
 		record.sys_id = gr.getValue('sys_id');
 		record.targetTable = gr.getRecordClassName();
 		data.list.push(record);
@@ -905,14 +911,14 @@ tbody tr:last-child {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 20:55:53</sys_created_on>
         <sys_id>b75bbefc2fb93410b14c5fd62799b646</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Training My Path Assignments</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_b75bbefc2fb93410b14c5fd62799b646</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-04 15:11:00</sys_updated_on>
+        <sys_updated_on>2021-08-05 18:18:46</sys_updated_on>
         <template><![CDATA[  <div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
     <div class="panel-heading form-inline" ng-hide="options.hide_header">
       <span class="dropdown m-r-xs">

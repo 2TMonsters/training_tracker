@@ -414,11 +414,11 @@
 			action: 'makeActivePath',
 			sys_id: item.sys_id
 		}).then(function(r) {
-			//console.log(r.data);
-			setTimeout(function(){
-				$rootScope.$emit('NewActivePath', item.name);
-				spUtil.update($scope);
-			},700)
+			console.log(r.data);
+
+			$rootScope.$emit('NewActivePath', item.name);
+			spUtil.update($scope);
+
 
 		});
 	}
@@ -946,14 +946,18 @@ button{
 			active.update();
 		}
 		//deactivates all other paths in the training plan
-		//should've been done by a set up flow
-		/*var deact = new GlideRecord(data.table);
+
+		var deact = new GlideRecord(data.table);
 		deact.addEncodedQuery('training_plan='+active.training_plan+"^sys_id!="+active.sys_id);
 		deact.query();
 		while(deact.next()){
-			deact.is_active_path = false;
+			if(deact.is_active_path){
+				deact.is_active_path = false;
+				deact.update();
+			}
+
 		}
-		deact.updateMultiple();*/
+
 	}
 
 })();]]></script>
@@ -962,14 +966,14 @@ button{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 18:29:33</sys_created_on>
         <sys_id>1ce9d6382f793410b14c5fd62799b687</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name>Training My Paths</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_1ce9d6382f793410b14c5fd62799b687</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-04 19:42:40</sys_updated_on>
+        <sys_updated_on>2021-08-05 17:54:59</sys_updated_on>
         <template><![CDATA[<div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
   <div class="panel-heading form-inline" ng-hide="options.hide_header">
     <span class="dropdown m-r-xs">

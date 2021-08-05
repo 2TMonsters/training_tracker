@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Training Tracker">caf8f83c2f1130101caaff1df699b6c8</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Path</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>20</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-09 14:54:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ef8f83c2f1130101caaff1df699b6cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Paths</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_app_module_8ef8f83c2f1130101caaff1df699b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-04 20:47:53</sys_updated_on>
+        <timeline_page/>
+        <title>Paths</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_app_module_8ef8f83c2f1130101caaff1df699b6cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Training Tracker">caf8f83c2f1130101caaff1df699b6c8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Path</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>20</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-09 14:54:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8ef8f83c2f1130101caaff1df699b6cc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Paths</sys_name><sys_overrides/><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_app_module_8ef8f83c2f1130101caaff1df699b6cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-04 20:47:53</sys_updated_on><timeline_page/><title>Paths</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1318664501</payload_hash>
+        <record_name>Paths</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-04 20:47:53</sys_created_on>
+        <sys_id>ec2340592f353010b14c5fd62799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b12ec2e810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-04 20:47:53</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e4234059f1353010014352d75fb740de</update_guid>
+        <update_guid_history>e4234059f1353010014352d75fb740de:-1318664501,a9828819cb353010dfea09f1cf345458:-1745258833,6148566fa4a1701098e5e4d99b00464c:525561034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Paths">5134c0992f353010b14c5fd62799b6c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-04 20:52:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>11cbe67ac27a4bdc827409217aee1611</sys_id>
+        <sys_metadata>8ef8f83c2f1130101caaff1df699b6cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paths</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_app_module_8ef8f83c2f1130101caaff1df699b6cc</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8ef8f83c2f1130101caaff1df699b6cc">ec2340592f353010b14c5fd62799b6de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-04 20:52:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

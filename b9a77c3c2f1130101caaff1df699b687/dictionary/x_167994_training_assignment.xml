@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Assignment" max_length="40" name="x_167994_training_assignment" sizeclass="10" type="collection">
+    <element label="Assignment" max_length="40" name="x_167994_training_assignment" sizeclass="13" type="collection">
         <element label="Completed" max_length="40" name="completed" type="boolean"/>
         <element label="Duration" max_length="40" name="duration" type="glide_duration"/>
         <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" mandatory="true" max_length="14" name="number" type="string" use_dynamic_default="true"/>
