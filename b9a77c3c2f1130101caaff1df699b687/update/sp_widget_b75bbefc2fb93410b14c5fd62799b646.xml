@@ -415,8 +415,8 @@
 	});
 	
 	c.goToAssignment = function(item){
-		console.log($scope.data);
-		//$window.location.href = "https://dev78456.service-now.com/training/?id=training_assignment&table=x_167994_training_assignment&sys_id="+item.sys_id+"&sysparm_article="+item.article;
+		//console.log($scope.data);
+		$window.location.href = "https://dev78456.service-now.com/training/?id=training_assignment&table=x_167994_training_assignment&sys_id="+item.sys_id+"&sysparm_article="+item.article;
 	}
 	
 	
@@ -923,14 +923,14 @@ tbody tr:last-child {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 20:55:53</sys_created_on>
         <sys_id>b75bbefc2fb93410b14c5fd62799b646</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>Training My Path Assignments</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_b75bbefc2fb93410b14c5fd62799b646</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 19:32:22</sys_updated_on>
+        <sys_updated_on>2021-08-05 19:49:28</sys_updated_on>
         <template><![CDATA[  <div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
     <div class="panel-heading form-inline" ng-hide="options.hide_header">
       <span class="dropdown m-r-xs">
