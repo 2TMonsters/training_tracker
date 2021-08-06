@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Path Assignment" max_length="40" name="x_167994_training_path_assignment" sizeclass="4" type="collection">
+        <element label="Is active path?" max_length="40" name="is_active_path" type="boolean"/>
+        <element display="true" label="Path" max_length="32" name="path" reference="x_167994_training_path" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var gr = new GlideRecord('x_167994_training_assignment');&#13;&#10;&#9;gr.addQuery('path_assignment', current.sys_id);&#13;&#10;&#9;gr.query();&#13;&#10;&#9;var totalCompleted = 0;&#13;&#10;&#9;while(gr.next()){&#13;&#10;&#9;&#9;if(gr.completed)&#13;&#10;&#9;&#9;&#9;totalCompleted++;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;return (totalCompleted/gr.getRowCount())*100;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Progress" max_length="15" name="progress" type="percent_complete" virtual="true"/>
+        <element label="Training Plan" max_length="32" name="training_plan" reference="x_167994_training_training_plan" type="reference"/>
+        <index name="index">
+            <element name="path"/>
+        </index>
+        <index name="index2">
+            <element name="training_plan"/>
+        </index>
+    </element>
+</database>

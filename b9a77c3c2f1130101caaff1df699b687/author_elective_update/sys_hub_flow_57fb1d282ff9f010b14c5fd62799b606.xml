@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>When a path assignment is deleted so are the corresponding course assignments.</description>
+        <internal_name>delete_path_assignment</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Delete Path Assignment</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 19:20:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57fb1d282ff9f010b14c5fd62799b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Path Assignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_hub_flow_57fb1d282ff9f010b14c5fd62799b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 19:20:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=57fb1d282ff9f010b14c5fd62799b606"/>
+    <sys_variable_value action="DELETE" query="document_key=57fb1d282ff9f010b14c5fd62799b606"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=57fb1d282ff9f010b14c5fd62799b606^sys_idNOT INe7fb1d282ff9f010b14c5fd62799b607"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>57fb1d282ff9f010b14c5fd62799b606</id>
+        <name>Delete Path Assignment</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 19:20:40</sys_created_on>
+        <sys_id>e7fb1d282ff9f010b14c5fd62799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 19:20:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_hub_flow_57fb1d282ff9f010b14c5fd62799b606</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>When a path assignment is deleted so are the corresponding course assignments.</description><internal_name>delete_path_assignment</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Delete Path Assignment</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 19:20:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>57fb1d282ff9f010b14c5fd62799b606</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete Path Assignment</sys_name><sys_overrides/><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_hub_flow_57fb1d282ff9f010b14c5fd62799b606</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-02 19:20:40</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=57fb1d282ff9f010b14c5fd62799b606"/><sys_variable_value action="delete_multiple" query="document_key=57fb1d282ff9f010b14c5fd62799b606"/><sys_flow_cat_variable_model action="delete_multiple" query="id=57fb1d282ff9f010b14c5fd62799b606^sys_idNOT INe7fb1d282ff9f010b14c5fd62799b607"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>57fb1d282ff9f010b14c5fd62799b606</id><name>Delete Path Assignment</name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 19:20:40</sys_created_on><sys_id>e7fb1d282ff9f010b14c5fd62799b607</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-02 19:20:40</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-79767374</payload_hash>
+        <record_name>Delete Path Assignment</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 19:20:40</sys_created_on>
+        <sys_id>a3fb1d282ff9f010b14c5fd62799b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b084f9e0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 19:20:40</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>ebfb1d2862f9f010321eb16f9a24d50a</update_guid>
+        <update_guid_history>ebfb1d2862f9f010321eb16f9a24d50a:-79767374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-03 15:01:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>5cfb6eb09df04d20a6cad2419d4c8900</sys_id>
+        <sys_metadata>57fb1d282ff9f010b14c5fd62799b606</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Path Assignment</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_57fb1d282ff9f010b14c5fd62799b606</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_57fb1d282ff9f010b14c5fd62799b606">a3fb1d282ff9f010b14c5fd62799b60b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-03 15:01:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

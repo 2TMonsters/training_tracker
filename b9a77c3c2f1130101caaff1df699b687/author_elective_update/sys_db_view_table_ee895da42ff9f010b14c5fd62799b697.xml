@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>300</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 19:10:18</sys_created_on>
+        <sys_id>ee895da42ff9f010b14c5fd62799b697</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_167994_training_course</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_db_view_table_ee895da42ff9f010b14c5fd62799b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:29:08</sys_updated_on>
+        <table>x_167994_training_course</table>
+        <variable_prefix>CRS</variable_prefix>
+        <view display_value="x_167994_training_path_courses">45d8d5a42ff9f010b14c5fd62799b614</view>
+        <where_clause/>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_db_view_table_ee895da42ff9f010b14c5fd62799b697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>300</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 19:10:18</sys_created_on><sys_id>ee895da42ff9f010b14c5fd62799b697</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_167994_training_course</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_db_view_table_ee895da42ff9f010b14c5fd62799b697</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-02 20:29:08</sys_updated_on><table>x_167994_training_course</table><variable_prefix>CRS</variable_prefix><view display_value="x_167994_training_path_courses">45d8d5a42ff9f010b14c5fd62799b614</view><where_clause/></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>-2015040334</payload_hash>
+        <record_name>x_167994_training_course</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:29:08</sys_created_on>
+        <sys_id>2aab25642f3df010b14c5fd62799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b088e4d960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:29:08</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>22ab2564313df010d468a87080fb21bc</update_guid>
+        <update_guid_history>22ab2564313df010d468a87080fb21bc:-2015040334,dbba5de43ff9f0100c92c6177cc4e214:487633000,e77a51e48ff9f0105e70d376eae44c91:-428850308,ef99dda4dbf9f01036de41a70b09492f:-2015040334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:31:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>416babb9e6344210a1fe99aa311d5100</sys_id>
+        <sys_metadata>ee895da42ff9f010b14c5fd62799b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_course</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent display_value="">45d8d5a42ff9f010b14c5fd62799b614</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_ee895da42ff9f010b14c5fd62799b697</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_ee895da42ff9f010b14c5fd62799b697">2aab25642f3df010b14c5fd62799b6bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:31:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

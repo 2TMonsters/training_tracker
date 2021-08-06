@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>200</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:46:59</sys_created_on>
+        <sys_id>b9afa1282f3df010b14c5fd62799b6bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_167994_training_m2m_courses_paths</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_db_view_table_b9afa1282f3df010b14c5fd62799b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:50:46</sys_updated_on>
+        <table>x_167994_training_m2m_courses_paths</table>
+        <variable_prefix>m2m</variable_prefix>
+        <view display_value="x_167994_training_path_courses">45d8d5a42ff9f010b14c5fd62799b614</view>
+        <where_clause>m2m_path=PATH_name</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_db_view_table_b9afa1282f3df010b14c5fd62799b6bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>200</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 20:46:59</sys_created_on><sys_id>b9afa1282f3df010b14c5fd62799b6bf</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_167994_training_m2m_courses_paths</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_db_view_table_b9afa1282f3df010b14c5fd62799b6bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-02 20:50:46</sys_updated_on><table>x_167994_training_m2m_courses_paths</table><variable_prefix>m2m</variable_prefix><view display_value="x_167994_training_path_courses">45d8d5a42ff9f010b14c5fd62799b614</view><where_clause>m2m_path=PATH_name</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>522584346</payload_hash>
+        <record_name>x_167994_training_m2m_courses_paths</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:50:46</sys_created_on>
+        <sys_id>db9075682f3df010b14c5fd62799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b08a21b540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:50:46</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>d3907568ee3df0105f14f792e8d3cf39</update_guid>
+        <update_guid_history>d3907568ee3df0105f14f792e8d3cf39:522584346,8a40bd28753df01099ce35abff379de3:1544862296,37bfe528423df0106d137934b64a04cb:956970727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:51:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>04dc3ebb2cfc4c9880224e74ca231e40</sys_id>
+        <sys_metadata>b9afa1282f3df010b14c5fd62799b6bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_m2m_courses_paths</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_b9afa1282f3df010b14c5fd62799b6bf</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_b9afa1282f3df010b14c5fd62799b6bf">db9075682f3df010b14c5fd62799b639</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:51:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

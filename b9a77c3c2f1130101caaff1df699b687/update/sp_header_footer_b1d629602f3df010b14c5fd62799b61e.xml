@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	$scope.collapse = function() {
+		$rootScope.$emit('sp-navbar-collapse');
+	}
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative()) {
+		if ($window.innerWidth < 767) {
+			$scope.isViewNative = true;
+		} else {
+			$scope.isViewNativeTablet = true;
+		}
+	}
+
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+
+	$scope.isAgentChatConfigured = g_has_agent_chat_config;
+
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() && (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}
+	});
+
+
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+
+	$rootScope.$on('sp.avatar_changed', function(evt, obj) {
+		$scope.userID = "";
+		$scope.newAvatarId = obj.newAvatarId;
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+			$("#profile-dropdown .sub-avatar").css("background-image", 'url("' + $scope.newAvatarId + '.iix?t=small")');
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>AFS Training Header</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("User options");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu && data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' && item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:08:30</sys_created_on>
+        <sys_id>b1d629602f3df010b14c5fd62799b61e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AFS Training Header</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_header_footer_b1d629602f3df010b14c5fd62799b61e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:20:37</sys_updated_on>
+        <template><![CDATA[<div>
+  <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation" aria-label="${Primary}">
+    <div ng-show="::!isViewNative" class="navbar-header">
+<a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"><span ng-bind="portal.title"></span></a>
+      <a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" ng-href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="${Go to homepage}">
+        <img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" />
+      </a>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar">
+        <span class="sr-only">${Toggle navigation}</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar">
+      <!-- Include The Menu -->
+      <sp-widget widget="::data.menu"></sp-widget>
+      <ul ng-if="(!user.logged_in && page.id != portal.login_page_dv && !data.hasLogin)" class="nav navbar-nav" role="presentation">
+        <li role="presentation"><a href ng-click="::openLogin()">${Login}</a></li>
+      </ul>
+      <ul ng-if="user.logged_in" class="nav navbar-nav" role="menubar">
+        <!-- chat, avatar, and logout -->
+        <li ng-if="::(data.connect_support_queue_id && !isAgentChatConfigured)" role="presentation"><a href ng-click="openPopUp()" role="menuitem">${Live Chat}</a></li>
+        <li ng-if="showAvatar" class="hidden-xs dropdown" role="presentation">
+          <a href class="toggle-dropdown" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" aria-label="{{::data.profileBtnMsg}}: {{::user.name}}" id="profile-dropdown"  role="menuitem" aria-haspopup="true">
+            <span class="navbar-avatar" aria-hidden="true"><sn-avatar class="avatar-small-medium" primary="avatarProfile" /></span>
+            <span class="visible-lg-inline">{{::user.name}}</span>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-label="{{::data.profileBtnMsg}}">
+            <li role="presentation"><a tabindex="-1" ng-href="?id=user_profile&sys_id={{::user.sys_id}}" role="menuitem">${Profile}</a></li>
+            <li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"><a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem">${Logout}</a></li>
+          </ul>
+        </li>
+        <li ng-if="showXSAvatar" class="visible-xs-block" role="presentation"><a role="menuitem" ng-href="?id=user_profile&sys_id={{::user.sys_id}}" ng-click="collapse()">
+          <span class="navbar-avatar"><sn-avatar class="avatar-small-medium" primary="avatarProfile" /></span>{{::user.name}}</a>
+        </li>
+        <li ng-if="::!(isViewNative || isViewNativeTablet)" class="visible-xs-block" role="presentation"><a role="menuitem" ng-href="{{::portal.logoutUrl}}" ng-click="collapse()">${Logout}</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

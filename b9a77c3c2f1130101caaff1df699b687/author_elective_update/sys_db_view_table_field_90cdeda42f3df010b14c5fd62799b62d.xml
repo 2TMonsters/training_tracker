@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>sys_id</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:38:28</sys_created_on>
+        <sys_id>90cdeda42f3df010b14c5fd62799b62d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_db_view_table_field_90cdeda42f3df010b14c5fd62799b62d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:38:37</sys_updated_on>
+        <table>x_167994_training_path</table>
+        <view_table display_value="x_167994_training_path">140959a42ff9f010b14c5fd62799b665</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_db_view_table_field_90cdeda42f3df010b14c5fd62799b62d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>sys_id</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-02 20:38:28</sys_created_on><sys_id>90cdeda42f3df010b14c5fd62799b62d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_id</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sys_db_view_table_field_90cdeda42f3df010b14c5fd62799b62d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-02 20:38:37</sys_updated_on><table>x_167994_training_path</table><view_table display_value="x_167994_training_path">140959a42ff9f010b14c5fd62799b665</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>1210827734</payload_hash>
+        <record_name>sys_id</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:38:37</sys_created_on>
+        <sys_id>19dd21e42f3df010b14c5fd62799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b0896fb2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:38:37</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>11dd21e4bb3df0108fc5f2492fbef344</update_guid>
+        <update_guid_history>11dd21e4bb3df0108fc5f2492fbef344:1210827734,87cd2da4ca3df010cf102837d13c674c:-133555932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-02 20:45:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>4a015063c48f44b6a7ef8b1d5a49dda4</sys_id>
+        <sys_metadata>90cdeda42f3df010b14c5fd62799b62d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent display_value="">140959a42ff9f010b14c5fd62799b665</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_90cdeda42f3df010b14c5fd62799b62d</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_90cdeda42f3df010b14c5fd62799b62d">19dd21e42f3df010b14c5fd62799b644</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-02 20:45:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

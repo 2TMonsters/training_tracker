@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Training Plan" max_length="40" name="x_167994_training_training_plan" sizeclass="2" type="collection">
+        <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
+        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7e3c39342f393410b14c5fd62799b663</sp_column>
+        <sp_widget display_value="KB Article Comments">fb9f640347332100ba13a5554ee4908e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 17:34:24</sys_created_on>
+        <sys_id>c870aca92f317010b14c5fd62799b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_instance_c870aca92f317010b14c5fd62799b6d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 17:34:24</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c870aca92f317010b14c5fd62799b6d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sp_instance_c870aca92f317010b14c5fd62799b6d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">7e3c39342f393410b14c5fd62799b663</sp_column><sp_widget display_value="KB Article Comments">fb9f640347332100ba13a5554ee4908e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-05 17:34:24</sys_created_on><sys_id>c870aca92f317010b14c5fd62799b6d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sp_instance_c870aca92f317010b14c5fd62799b6d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-05 17:34:24</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=c870aca92f317010b14c5fd62799b6d6"/></record_update>]]></payload>
+        <payload_hash>1557318726</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 17:34:24</sys_created_on>
+        <sys_id>8870aca92f317010b14c5fd62799b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b176166ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 17:34:24</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c070aca93431701039c6085a6cedbdd9</update_guid>
+        <update_guid_history>c070aca93431701039c6085a6cedbdd9:1557318726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d2d024e92f317010b14c5fd62799b6f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-05 17:36:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0587173149a1405caeb32549ceb562d1</sys_id>
+        <sys_metadata>c870aca92f317010b14c5fd62799b6d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sp_instance_c870aca92f317010b14c5fd62799b6d6</sys_update_name>
+        <sys_update_version display_value="sp_instance_c870aca92f317010b14c5fd62799b6d6">8870aca92f317010b14c5fd62799b6d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-05 17:36:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
