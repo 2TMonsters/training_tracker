@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Path" max_length="40" name="x_167994_training_path" sizeclass="3" type="collection">
+    <element label="Path" max_length="40" name="x_167994_training_path" sizeclass="4" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
         <element choice="3" label="Employment" max_length="40" name="employment" type="choice">

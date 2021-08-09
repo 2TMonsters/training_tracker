@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($window) {
+  /* widget controller */
+  var c = this;
+	
+	c.toReg = function(){
+		$window.location.href = "https://dev78456.service-now.com/training/?id=training_registration&sys_id=5b1e787d2f313010b14c5fd62799b699";
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.newUser{
+  width:90%;
+  padding: 15px;
+  text-align: center;
+	color: white;
+  background-color: $brand-primary;
+  font-size: 15pt;
+  font-weight: bold;
+  border-radius: 6px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>new_user_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>New User Button</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 21:31:24</sys_created_on>
+        <sys_id>ed4066712f753010b14c5fd62799b628</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>New User Button</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_widget_ed4066712f753010b14c5fd62799b628</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 21:52:53</sys_updated_on>
+        <template><![CDATA[<div>
+  <table width="100%">
+    <tr>
+      <td></td>
+      <td class="newUser" ng-click="c.toReg()">
+        New User Registration</td>
+      <td></td>
+    </tr>
+  </table>
+</div>]]></template>
+    </sp_widget>
+</record_update>

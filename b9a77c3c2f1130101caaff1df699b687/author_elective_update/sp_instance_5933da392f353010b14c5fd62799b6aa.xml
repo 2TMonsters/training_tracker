@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">de4212392f353010b14c5fd62799b66d</sp_column>
+        <sp_widget display_value="SC Catalog Item Deprecated">0fd6a6f247230200ba13a5554ee490b3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:34:19</sys_created_on>
+        <sys_id>5933da392f353010b14c5fd62799b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_instance_5933da392f353010b14c5fd62799b6aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:34:19</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=5933da392f353010b14c5fd62799b6aa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sp_instance_5933da392f353010b14c5fd62799b6aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="2">de4212392f353010b14c5fd62799b66d</sp_column><sp_widget display_value="SC Catalog Item Deprecated">0fd6a6f247230200ba13a5554ee490b3</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-06 20:34:19</sys_created_on><sys_id>5933da392f353010b14c5fd62799b6aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sp_instance_5933da392f353010b14c5fd62799b6aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-06 20:34:19</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=5933da392f353010b14c5fd62799b6aa"/></record_update>]]></payload>
+        <payload_hash>1519158826</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:34:19</sys_created_on>
+        <sys_id>1d33da392f353010b14c5fd62799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b1d2c7bc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:34:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5533da39633530104a9db238dd6f9aac</update_guid>
+        <update_guid_history>5533da39633530104a9db238dd6f9aac:1519158826</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">78439a392f353010b14c5fd62799b6ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:34:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>002af26fef22407081737f37b8ed5110</sys_id>
+        <sys_metadata>5933da392f353010b14c5fd62799b6aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sp_instance_5933da392f353010b14c5fd62799b6aa</sys_update_name>
+        <sys_update_version display_value="sp_instance_5933da392f353010b14c5fd62799b6aa">1d33da392f353010b14c5fd62799b6ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:34:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

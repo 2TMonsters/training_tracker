@@ -5,20 +5,26 @@
 	/* widget controller */
 	var c = this;
 
+	
+	//updates assignment as complete with the duration time
 	c.completeAssign = function(){
 		var shared = {};
 		shared.title = $scope.data.record.title;
+		
+		//pops up a modal to enter in the duration
 		spModal.open({
 			shared: shared,
 			title: 'Congrats on Completing '+$scope.data.record.title,
 			widget: 'training_input_duration', 
 			widgetInput: {}
 		}).then(function () {
-			//console.log("Shared: ",shared);
+			//formats duration
 			var req = {};
 			req.action = 'completeAssign';	
 			req.duration = ""+String(shared.hours).padStart(2, "0")+":"+String(shared.minutes).padStart(2, "0")+":00";
-			console.log("req.duration: ", req.duration);
+			//console.log("req.duration: ", req.duration);
+			
+			//updates the record and refreshes widget
 			c.server.get(req).then(function(r){
 				console.log($scope.data);
 				spUtil.update($scope);
@@ -27,11 +33,13 @@
 
 	}
 
+	//navigates to the next assignment
 	c.toNextAssign = function(){
-		console.log($scope.data);
+		
 		$window.location.href="https://dev78456.service-now.com/training/?id=training_assignment&table="+$scope.data.table+"&sys_id="+$scope.data.nextAssign.sys_id+"&sysparm_article="+$scope.data.nextAssign.article;
 	}
 
+	//navigates to the homepage
 	c.toHome = function(){
 		//console.log($scope.data);
 		$window.location.href="https://dev78456.service-now.com/training/"
@@ -71,6 +79,13 @@ td{
   text-align: center;
   font-size: 18px;
   
+}
+
+.header {
+  width: 100%;
+  font-size: 20px;
+  color: $brand-primary;
+  text-align: center;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -92,6 +107,7 @@ td{
 	data.table = $sp.getParameter('table');
 	data.sys_id = $sp.getParameter('sys_id');
 
+	//gets the assignment record -> data.record
 	var current = new GlideRecord(data.table);
 	current.addQuery('sys_id', data.sys_id);
 	current.query();
@@ -99,21 +115,23 @@ td{
 		data.record = {};
 		data.record.order = current.path_course.order;
 		data.record.path_assignment = current.path_assignment;
+		data.record.path = String(current.path_assignment.path.name); 
 		data.record.title = String(current.path_course.course.title)
 		data.record.completed = Boolean(current.completed);
 	}else{
 		gs.addErrorMessage("Record not found.")
 	}
 	
+	//gets all incomplete assignments from path
 	var nextRecord = new GlideRecord(data.table);
 	nextRecord.addQuery('path_assignment', data.record.path_assignment);
 	nextRecord.addQuery('completed', false);
 	nextRecord.query();
 	
+	//finds the record with the lowest order and puts it into data.nextAssign
 	var nextOrderVal = Number.MAX_VALUE;
 	data.nextAssign = {};
-	data.isLast = true;
-	
+	data.isLast = true;	
 	while(nextRecord.next(current.path_course.order)){
 		if(nextRecord.path_course.order < nextOrderVal){
 			nextOrderVal = nextRecord.path_course.order;
@@ -125,6 +143,7 @@ td{
 	}
 	//gs.addInfoMessage("Next Assign: " + data.nextAssign.title + " " + data.nextAssign.sys_id);
 	
+	//updates current assignment with completed and duration
 	if(input){
 		if(input.action == 'completeAssign'){
 			current.completed = true;
@@ -139,15 +158,17 @@ td{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-04 15:14:44</sys_created_on>
         <sys_id>e0e6f2052f713010b14c5fd62799b6a0</sys_id>
-        <sys_mod_count>105</sys_mod_count>
+        <sys_mod_count>115</sys_mod_count>
         <sys_name>Training Assignment Buttons</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_e0e6f2052f713010b14c5fd62799b6a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 18:00:51</sys_updated_on>
+        <sys_updated_on>2021-08-09 20:31:12</sys_updated_on>
         <template><![CDATA[<div>
+  <div class="header">Path: {{data.record.path}} <br/>
+  Course: {{data.record.title}}</div>
   <div class="completeMessage" ng-if="data.record.completed">
     Assignment Complete
   </div>
@@ -160,6 +181,7 @@ td{
         </button>
       </td>
     </tr>
+    
     <tr ng-if="data.record.completed&&!data.isLast"><!-- If complete and there is a next on current path -->
       <td>
         <button class="enabled" ng-click="c.toNextAssign()"> 
