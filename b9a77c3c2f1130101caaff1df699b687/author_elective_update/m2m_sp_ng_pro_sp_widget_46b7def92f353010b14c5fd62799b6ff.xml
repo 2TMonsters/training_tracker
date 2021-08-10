@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider>
+        <sp_widget display_value="intern reg test">3db7def92f353010b14c5fd62799b6f5</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:54:02</sys_created_on>
+        <sys_id>46b7def92f353010b14c5fd62799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.intern reg test</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_46b7def92f353010b14c5fd62799b6ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:54:02</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_46b7def92f353010b14c5fd62799b6ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider><sp_widget display_value="intern reg test">3db7def92f353010b14c5fd62799b6f5</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-06 20:54:02</sys_created_on><sys_id>46b7def92f353010b14c5fd62799b6ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>scToggleData.intern reg test</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_46b7def92f353010b14c5fd62799b6ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-06 20:54:02</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>-1982465895</payload_hash>
+        <record_name>scToggleData.intern reg test</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:54:02</sys_created_on>
+        <sys_id>82b7123d2f353010b14c5fd62799b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b1d3e880e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:54:02</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>cab7123d39353010d00f9ec92f64ee00</update_guid>
+        <update_guid_history>cab7123d39353010d00f9ec92f64ee00:-1982465895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="scToggleData.intern reg test">7208563d2f353010b14c5fd62799b62a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 20:55:27</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>54877eab65a047a8b3a73bf33afa0139</sys_id>
+        <sys_metadata>46b7def92f353010b14c5fd62799b6ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.intern reg test</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_46b7def92f353010b14c5fd62799b6ff</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_46b7def92f353010b14c5fd62799b6ff">82b7123d2f353010b14c5fd62799b601</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 20:55:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

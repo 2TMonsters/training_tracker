@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Training Plan" max_length="40" name="x_167994_training_training_plan" sizeclass="2" type="collection">
+    <element label="Training Plan" max_length="40" name="x_167994_training_training_plan" sizeclass="8" type="collection">
+        <element choice="3" default="servicenow" label="Platform" max_length="40" name="platform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ServiceNow" sequence="100" value="servicenow"/>
+                <element inactive_on_update="false" label="Salesforce" sequence="200" value="salesforce"/>
+            </choice>
+        </element>
+        <element choice="3" default="intern" label="Program" max_length="40" name="program" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Apprenticeship" value="apprenticeship"/>
+                <element inactive_on_update="false" label="CSP" value="csp"/>
+                <element inactive_on_update="false" label="Intern" value="intern"/>
+            </choice>
+        </element>
         <element label="Progress" max_length="15" name="progress" type="percent_complete"/>
         <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">

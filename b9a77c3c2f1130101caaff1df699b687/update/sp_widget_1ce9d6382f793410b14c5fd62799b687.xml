@@ -408,18 +408,16 @@
 		}
 		return eq;
 	}
+	//marks the corresponding path as active
 	c.makeActivePath = function(item){
-		//console.log('make acive path: ',sys_id);
 		c.server.get({
 			action: 'makeActivePath',
 			sys_id: item.sys_id
 		}).then(function(r) {
 			//console.log(r.data);
-
+			//notifies other widgets that a new path has been activated and updates itself
 			$rootScope.$emit('NewActivePath', item.name);
 			spUtil.update($scope);
-
-
 		});
 	}
 }]]></client_script>
@@ -735,7 +733,7 @@ button{
 		data.table_label = "";
 		return;
 	}
-
+	data.view = "portal_view";
 	if (!data.fields) {
 		if (data.view)
 			data.fields = $sp.getListColumns(data.table, data.view);
@@ -935,7 +933,7 @@ button{
 		else if (grForMetaData.isValidField("name"))
 			data.o = "name";
 	}
-
+	//runs logic to change the active path
 	if(input.action=='makeActivePath' && input.sys_id){
 		//sets triggering path to active
 		var active = new GlideRecord(data.table);
@@ -945,8 +943,8 @@ button{
 			active.is_active_path = true;
 			active.update();
 		}
+		
 		//deactivates all other paths in the training plan
-
 		var deact = new GlideRecord(data.table);
 		deact.addEncodedQuery('training_plan='+active.training_plan+"^sys_id!="+active.sys_id);
 		deact.query();
@@ -966,14 +964,14 @@ button{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 18:29:33</sys_created_on>
         <sys_id>1ce9d6382f793410b14c5fd62799b687</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Training My Paths</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_1ce9d6382f793410b14c5fd62799b687</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 19:05:42</sys_updated_on>
+        <sys_updated_on>2021-08-05 22:01:40</sys_updated_on>
         <template><![CDATA[<div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
   <div class="panel-heading form-inline" ng-hide="options.hide_header">
     <span class="dropdown m-r-xs">

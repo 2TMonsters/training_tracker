@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>sm</size>
+        <sp_column display_value="3">710e41792f713010b14c5fd62799b6a9</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 21:11:29</sys_created_on>
+        <sys_id>2dbb1abd2f353010b14c5fd62799b6ec</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>New User Registration</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_instance_link_2dbb1abd2f353010b14c5fd62799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 21:34:01</sys_updated_on>
+        <title>New User Registration</title>
+        <type>url</type>
+        <url>https://dev78456.service-now.com/training/?id=training_registration&amp;sys_id=5b1e787d2f313010b14c5fd62799b699</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=2dbb1abd2f353010b14c5fd62799b6ec"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sp_instance_link_2dbb1abd2f353010b14c5fd62799b6ec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;sm&lt;/size&gt;&lt;sp_column display_value="3"&gt;710e41792f713010b14c5fd62799b6a9&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-06 21:11:29&lt;/sys_created_on&gt;&lt;sys_id&gt;2dbb1abd2f353010b14c5fd62799b6ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;New User Registration&lt;/sys_name&gt;&lt;sys_package display_value="Training Tracker" source="x_167994_training"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Tracker"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_2dbb1abd2f353010b14c5fd62799b6ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-06 21:34:01&lt;/sys_updated_on&gt;&lt;title&gt;New User Registration&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://dev78456.service-now.com/training/?id=training_registration&amp;amp;sys_id=5b1e787d2f313010b14c5fd62799b699&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2dbb1abd2f353010b14c5fd62799b6ec"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-600714312</payload_hash>
+        <record_name>New User Registration</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 21:34:01</sys_created_on>
+        <sys_id>abd026b12f753010b14c5fd62799b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b1d6322d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 21:34:01</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>a3d026b1ea7530100c36c6e5792973cc</update_guid>
+        <update_guid_history>a3d026b1ea7530100c36c6e5792973cc:-600714312,72ae16719f75301065f754966ec60c73:-195180622,448e92717975301042b83d35b200d02c:-655498027,cefbd2fd26353010dd7b0a51c5ce6a5c:-1863122266,a8eb5abd4e353010eedd34cac3fdb258:-686202468,0edb96bdc2353010391f44bd4a0ddff5:-464360724,e9bb1abd9935301071105266613525ee:-879010983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New User Registration">f7912af12f753010b14c5fd62799b64e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-06 21:37:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>1bd1ab72def8493cb522a60cd9011c90</sys_id>
+        <sys_metadata>2dbb1abd2f353010b14c5fd62799b6ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New User Registration</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sp_instance_link_2dbb1abd2f353010b14c5fd62799b6ec</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_2dbb1abd2f353010b14c5fd62799b6ec">abd026b12f753010b14c5fd62799b6cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-06 21:37:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
