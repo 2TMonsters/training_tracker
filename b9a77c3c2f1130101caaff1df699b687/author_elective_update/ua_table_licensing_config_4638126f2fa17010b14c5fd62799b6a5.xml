@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_167994_training_trainee</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-30 21:09:53</sys_created_on>
+        <sys_id>4638126f2fa17010b14c5fd62799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_trainee</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>ua_table_licensing_config_4638126f2fa17010b14c5fd62799b6a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-30 21:09:53</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>ua_table_licensing_config_4638126f2fa17010b14c5fd62799b6a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_167994_training_trainee</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-30 21:09:53</sys_created_on><sys_id>4638126f2fa17010b14c5fd62799b6a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_167994_training_trainee</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>ua_table_licensing_config_4638126f2fa17010b14c5fd62799b6a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-30 21:09:53</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1610238983</payload_hash>
+        <record_name>x_167994_training_trainee</record_name>
+        <reverted_from/>
+        <source>49af1a802f113010b14c5fd62799b62d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-07-07 14:27:52</sys_created_on>
+        <sys_id>f0585a6f2fa17010b14c5fd62799b631</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17a815e32400000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Table Subscription Configuration</type>
+        <update_guid>b0585a6fdda170106720bda5504a4a31</update_guid>
+        <update_guid_history>b0585a6fdda170106720bda5504a4a31:1610238983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-13 17:27:28</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>26ee33ddaeb946be9a6e4caa3d997924</sys_id>
+        <sys_metadata>4638126f2fa17010b14c5fd62799b6a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training_trainee</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_4638126f2fa17010b14c5fd62799b6a5</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_4638126f2fa17010b14c5fd62799b6a5">f0585a6f2fa17010b14c5fd62799b631</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-13 17:27:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

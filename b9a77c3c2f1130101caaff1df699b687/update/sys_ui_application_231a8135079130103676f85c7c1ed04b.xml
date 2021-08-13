@@ -4,7 +4,7 @@
         <hint/>
         <name>Training Tracker</name>
         <order/>
-        <roles>x_167994_training.admin,x_167994_training.course_admin,x_167994_training.trainee,x_167994_training.manager</roles>
+        <roles>x_167994_training.admin,x_167994_training.trainee,x_167994_training.manager</roles>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-12 18:43:35</sys_created_on>

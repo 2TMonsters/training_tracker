@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Intern Registration">9e99320f2f3df010b14c5fd62799b6bf</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Email</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var re = /^[A-Za-z.0-9]+@accenturefederal.com$/;
+	if(!re.test(newValue)){
+		alert("Invalid email address. Note: must end with @accenturefederal.com ");
+	}
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:34:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6699360f2f3df010b14c5fd62799b644</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Validate Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>catalog_script_client_6699360f2f3df010b14c5fd62799b644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:43:15</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>catalog_script_client_6699360f2f3df010b14c5fd62799b644</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Intern Registration"&gt;9e99320f2f3df010b14c5fd62799b6bf&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Email&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var re = /^[A-Za-z.0-9]+@accenturefederal.com$/;
+	if(!re.test(newValue)){
+		alert("Invalid email address. Note: must end with @accenturefederal.com ");
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-08-10 20:34:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6699360f2f3df010b14c5fd62799b644&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Email&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training Tracker" source="x_167994_training"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Tracker"&gt;b9a77c3c2f1130101caaff1df699b687&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_6699360f2f3df010b14c5fd62799b644&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-08-10 20:43:15&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-474154654</payload_hash>
+        <record_name>Validate Email</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:43:15</sys_created_on>
+        <sys_id>8b9b3e0f2f3df010b14c5fd62799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b31ce173d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:43:15</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>839b3e0fac3df010305d7c634dfb274d</update_guid>
+        <update_guid_history>839b3e0fac3df010305d7c634dfb274d:-474154654,a699360f653df01072be3e626b173447:519732557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Validate Email">33cb368f2f3df010b14c5fd62799b64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:44:08</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0060ceade7cc4aec801ecb0a56203c90</sys_id>
+        <sys_metadata>6699360f2f3df010b14c5fd62799b644</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Email</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>catalog_script_client_6699360f2f3df010b14c5fd62799b644</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_6699360f2f3df010b14c5fd62799b644">8b9b3e0f2f3df010b14c5fd62799b64d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:44:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

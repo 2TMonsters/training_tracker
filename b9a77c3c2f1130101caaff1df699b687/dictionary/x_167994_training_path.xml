@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Path" max_length="40" name="x_167994_training_path" sizeclass="4" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    // Add your code here&#13;&#10;    var total = 0;&#13;&#10;    var gr = new GlideRecord('x_167994_training_path_assignment');&#13;&#10;    gr.addQuery('path', current.sys_id);&#13;&#10;&#9;gr.addQuery('completed', true);&#13;&#10;    gr.query();&#13;&#10;    while (gr.next()) {&#13;&#10;        total += gr.duration.dateNumericValue();&#13;&#10;    }&#13;&#10;&#9;var avg = 0;&#13;&#10;&#9;if(gr.getRowCount()&gt;0)&#13;&#10;&#9;&#9;avg = total/gr.getRowCount();&#13;&#10;&#9;var gd = new GlideDuration(avg);&#13;&#10;&#9;//gs.info(&quot;total: &quot;+total+&quot;count: &quot;+gr.getRowCount()+&quot;__gd.displayvalue=&quot;+gd.getDisplayValue());&#13;&#10;    return gd; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Average Duration" max_length="40" name="average_duration" read_only="true" type="glide_duration" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
         <element choice="3" label="Employment" max_length="40" name="employment" type="choice">
             <choice>
@@ -10,11 +11,16 @@
         </element>
         <element attributes="edge_encryption_enabled=true" display="true" label="Path Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element choice="1" label="Platform" max_length="40" name="platform" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Salesforce" value="salesforce"/>
                 <element inactive_on_update="false" label="ServiceNow" value="servicenow"/>
             </choice>
         </element>
+        <element label="Registration Code" max_length="40" name="registration_code" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
     </element>
 </database>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Path Course" max_length="40" name="x_167994_training_path_course" sizeclass="14" type="collection">
+    <element label="Path Course" max_length="40" name="x_167994_training_path_course" sizeclass="27" type="collection">
         <element display="true" label="Course" max_length="32" name="course" reference="x_167994_training_course" type="reference"/>
         <element label="Order" max_length="40" name="order" type="integer"/>
         <element label="Path" max_length="32" name="path" reference="x_167994_training_path" type="reference"/>

@@ -25,16 +25,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 13:45:20</sys_created_on>
         <sys_id>2ab89df42fb53410b14c5fd62799b690</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Path Course</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sys_db_object_2ab89df42fb53410b14c5fd62799b690</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-03 13:45:20</sys_updated_on>
+        <sys_updated_on>2021-08-10 21:10:06</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_167994_training.path_course_user" name="x_167994_training.path_course_user">09d851382fb53410b14c5fd62799b606</user_role>
+        <user_role display_value="x_167994_training.admin" name="x_167994_training.admin">10e7383c2f1130101caaff1df699b673</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

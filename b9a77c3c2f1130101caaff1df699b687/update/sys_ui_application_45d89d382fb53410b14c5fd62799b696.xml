@@ -4,7 +4,7 @@
         <hint/>
         <name>Path Courses</name>
         <order/>
-        <roles>x_167994_training.path_course_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 13:45:20</sys_created_on>

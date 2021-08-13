@@ -6,7 +6,7 @@
         <header_titles/>
         <hide_empty_sections>true</hide_empty_sections>
         <name>Training Tracker</name>
-        <required_roles>x_167994_training.admin,x_167994_training.course_admin,x_167994_training.trainee,x_167994_training.manager</required_roles>
+        <required_roles>x_167994_training.admin,x_167994_training.trainee,x_167994_training.manager</required_roles>
         <search_config/>
         <sys_class_name>sys_sg_applet_launcher</sys_class_name>
         <sys_created_by>admin</sys_created_by>
