@@ -62,14 +62,14 @@ div{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 13:12:44</sys_created_on>
         <sys_id>0f8427512fbd3010b14c5fd62799b651</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Training Input Duration</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_0f8427512fbd3010b14c5fd62799b651</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 15:15:10</sys_updated_on>
+        <sys_updated_on>2021-08-10 18:41:07</sys_updated_on>
         <template><![CDATA[<div>Please share how long it took to complete.<br/> &nbsp;</div>
 <table>
 
@@ -81,7 +81,7 @@ div{
                ng-model="c.hours" 
                ng-model-options="{getterSetter : true}"
                ng-change="validateHours(this.value)" 
-               ng-init="c.hours=0"/></td>
+               /></td>
 
     <td><input type="number"
                min="0" 
@@ -89,7 +89,7 @@ div{
                ng-model="c.minutes" 
                ng-model-options="{getterSetter : true}"
                ng-change="validateMinutes(this.value)" 
-               ng-init="c.minutes=0"/></td>
+               /></td>
 
   </tr>
 </table>

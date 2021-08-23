@@ -7,7 +7,7 @@
         <hint/>
         <name>Assignment</name>
         <order>100</order>
-        <roles>x_167994_training.assignment_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-14 14:47:48</sys_created_on>

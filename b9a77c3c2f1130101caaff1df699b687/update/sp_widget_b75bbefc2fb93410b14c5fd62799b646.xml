@@ -925,14 +925,14 @@ tbody tr:last-child {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-03 20:55:53</sys_created_on>
         <sys_id>b75bbefc2fb93410b14c5fd62799b646</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name>Training My Path Assignments</sys_name>
         <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
         <sys_update_name>sp_widget_b75bbefc2fb93410b14c5fd62799b646</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 21:50:38</sys_updated_on>
+        <sys_updated_on>2021-08-11 16:08:57</sys_updated_on>
         <template><![CDATA[<div class="panel panel-{{options.color}} b" ng-class="{'data-table-high-contrast': accessibilityModeEnabled}">
   <div class="panel-heading form-inline" ng-hide="options.hide_header">
     <span class="dropdown m-r-xs">
@@ -988,8 +988,11 @@ tbody tr:last-child {
             <span ng-if="!$first">{{::item[field].display_value | limitTo : item[field].limit}}{{::item[field].display_value.length > item[field].limit ? '...' : ''}}</span>
           </td>
 
-          <td role="cell" ng-if="field=='completed'&&item[field].display_value=='true'" class="complete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td>
-          <td role="cell" ng-if="field=='completed'&&item[field].display_value=='false'" class="incomplete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td>
+          <!-- Greed/red  <td role="cell" ng-if="field=='completed'&&item[field].display_value=='true'" class="complete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td>
+          <td role="cell" ng-if="field=='completed'&&item[field].display_value=='false'" class="incomplete" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">&nbsp;</td> -->
+          <td role="cell" ng-if="field=='completed'&&item[field].display_value=='true'" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">Yes<!--span class="glyphicon glyphicon-ok" color="green"></span--></td>
+          <td role="cell" ng-if="field=='completed'&&item[field].display_value=='false'" ng-class="{selected: item.selected}" ng-click="c.goToAssignment(item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">No</td>
+
         </tr>
       </tbody>
     </table>

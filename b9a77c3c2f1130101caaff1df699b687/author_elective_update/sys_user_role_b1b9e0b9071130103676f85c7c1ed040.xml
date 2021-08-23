@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_167994_training.trainee_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>trainee_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 16:22:02</sys_created_on>
+        <sys_id>b1b9e0b9071130103676f85c7c1ed040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training.trainee_user</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_user_role_b1b9e0b9071130103676f85c7c1ed040</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 16:22:02</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sys_user_role_b1b9e0b9071130103676f85c7c1ed040</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_167994_training.trainee_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>trainee_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 16:22:02</sys_created_on>
+        <sys_id>b1b9e0b9071130103676f85c7c1ed040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training.trainee_user</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_user_role_b1b9e0b9071130103676f85c7c1ed040</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 16:22:02</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-1915912982</payload_hash>
+        <record_name>x_167994_training.trainee_user</record_name>
+        <reverted_from/>
+        <source>c338526f2fa17010b14c5fd62799b6ff</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-30 21:10:21</sys_created_on>
+        <sys_id>7c585a6f2fa17010b14c5fd62799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17af940f26a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-30 21:10:21</sys_updated_on>
+        <type>Role</type>
+        <update_guid>3c585a6fbba170108a3178dcfaa3ae20</update_guid>
+        <update_guid_history>3c585a6fbba170108a3178dcfaa3ae20:-1915912982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_167994_training.trainee_user">092dbacf2f3df010b14c5fd62799b698</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:49:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>11e75744656541e896ab6d5234f97e84</sys_id>
+        <sys_metadata>b1b9e0b9071130103676f85c7c1ed040</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training.trainee_user</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sys_user_role_b1b9e0b9071130103676f85c7c1ed040</sys_update_name>
+        <sys_update_version display_value="sys_user_role_b1b9e0b9071130103676f85c7c1ed040">7c585a6f2fa17010b14c5fd62799b620</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:49:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

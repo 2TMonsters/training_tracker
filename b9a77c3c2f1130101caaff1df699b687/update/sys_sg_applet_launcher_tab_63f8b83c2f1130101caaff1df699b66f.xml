@@ -4,7 +4,7 @@
         <applet_launcher display_value="Training Tracker">2bf8b83c2f1130101caaff1df699b66d</applet_launcher>
         <icon display_value="Home Training Tracker">a3f8b83c2f1130101caaff1df699b66f</icon>
         <label>Training Tracker</label>
-        <roles>x_167994_training.admin,x_167994_training.course_admin,x_167994_training.trainee,x_167994_training.manager</roles>
+        <roles>x_167994_training.admin,x_167994_training.trainee,x_167994_training.manager</roles>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-09 14:54:51</sys_created_on>

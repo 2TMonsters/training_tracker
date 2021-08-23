@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>name</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a1a13fdf2ff13010b14c5fd62799b636</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Training Add Paths">3871fbdf2ff13010b14c5fd62799b6d5</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-11 19:35:54</sys_created_on>
+        <sys_id>9ec5bf932f353010b14c5fd62799b6fe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Available Paths</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sp_instance_table_9ec5bf932f353010b14c5fd62799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-11 19:39:48</sys_updated_on>
+        <table>x_167994_training_path</table>
+        <title>Available Paths</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"enable_filter": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ec5bf932f353010b14c5fd62799b6fe"/>
+</record_update>

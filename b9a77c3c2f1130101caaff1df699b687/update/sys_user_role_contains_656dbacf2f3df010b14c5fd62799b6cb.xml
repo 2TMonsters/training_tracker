@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_167994_training.manager" name="x_167994_training.manager">20e7707c2f1130101caaff1df699b678</contains>
+        <role display_value="x_167994_training.admin" name="x_167994_training.admin">10e7383c2f1130101caaff1df699b673</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:51:04</sys_created_on>
+        <sys_id>656dbacf2f3df010b14c5fd62799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_167994_training.manager.x_167994_training.admin</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sys_user_role_contains_656dbacf2f3df010b14c5fd62799b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:51:04</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

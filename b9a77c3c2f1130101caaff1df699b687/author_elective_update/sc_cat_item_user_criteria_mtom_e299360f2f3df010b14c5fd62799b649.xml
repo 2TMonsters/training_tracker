@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Intern Registration">9e99320f2f3df010b14c5fd62799b6bf</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:34:29</sys_created_on>
+        <sys_id>e299360f2f3df010b14c5fd62799b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Intern Registration.Anybody</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e299360f2f3df010b14c5fd62799b649</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:34:29</sys_updated_on>
+        <user_criteria display_value="Anybody">2c7f15ba2f7db010b14c5fd62799b6c5</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</application>
+        <file_path/>
+        <instance_id>34178a8edb68374052dd2f17d496191d</instance_id>
+        <instance_name>dev78456</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_e299360f2f3df010b14c5fd62799b649</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Intern Registration">9e99320f2f3df010b14c5fd62799b6bf</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-10 20:34:29</sys_created_on><sys_id>e299360f2f3df010b14c5fd62799b649</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Intern Registration.Anybody</sys_name><sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package><sys_policy/><sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_e299360f2f3df010b14c5fd62799b649</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-10 20:34:29</sys_updated_on><user_criteria display_value="Anybody">2c7f15ba2f7db010b14c5fd62799b6c5</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1043197386</payload_hash>
+        <record_name>Intern Registration.Anybody</record_name>
+        <reverted_from/>
+        <source>5f785a2f2fa17010b14c5fd62799b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:34:29</sys_created_on>
+        <sys_id>3699360f2f3df010b14c5fd62799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b31c612e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:34:29</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>ba99360f373df01093fad50dfe5c5b4b</update_guid>
+        <update_guid_history>ba99360f373df01093fad50dfe5c5b4b:1043197386</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Intern Registration.Anybody">78db768f2f3df010b14c5fd62799b651</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-10 20:44:11</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>d469999ab4904f24afa69ba777f54651</sys_id>
+        <sys_metadata>e299360f2f3df010b14c5fd62799b649</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Intern Registration.Anybody</sys_name>
+        <sys_package display_value="Training Tracker" source="x_167994_training">b9a77c3c2f1130101caaff1df699b687</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Tracker">b9a77c3c2f1130101caaff1df699b687</sys_scope>
+        <sys_scope_delete display_value="">26ee68e2f64c4a939368209eabc9ae39</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e299360f2f3df010b14c5fd62799b649</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_e299360f2f3df010b14c5fd62799b649">3699360f2f3df010b14c5fd62799b64c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-10 20:44:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
